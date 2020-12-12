@@ -1,0 +1,37 @@
+.section-advice {
+    background-color: #ced1d3;
+    background-repeat: repeat-y;
+  }
+  
+.advices {
+  display: flex;
+  justify-content: center;
+}
+
+.content-advice {
+  border: 1px solid #505C68;
+  border-radius: 10px;
+  width: 42%;
+  margin: 5px;
+  padding: 20px;
+  margin-top: 5%;
+}
+
+.content-advice h2 {
+  text-align: center;
+  color: #30353B;
+}
+
+.content-advice p {
+  text-align: center;
+  color: #505C68;
+}
+
+.img-logo {
+  text-align: center;
+  margin-top: -18%;
+}
+
+.img-logo img {
+  width: 150px;
+}

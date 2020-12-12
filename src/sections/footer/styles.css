@@ -1,0 +1,23 @@
+.section-footer {
+    background-color: #26292E;
+    background-repeat: repeat-y;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-logo-imov {
+    margin-left: 8%;
+}
+
+.options-footer {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.options-footer label {
+    color: #EEEEEE;
+}

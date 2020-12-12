@@ -7,6 +7,10 @@ import image2 from "../../assets/imovcontrol-dashboard2.png"
 import image3 from "../../assets/imovcontrol-dashboard3.png"
 
 import "./styles.css"
+import Perfil from "../perfil/index.js"
+import Advice from "../advice";
+import ContactUs from "../contact-us";
+import Footer from "../footer";
 
 export default function About({ title, subtitle, id }) {
   return (
@@ -71,6 +75,12 @@ export default function About({ title, subtitle, id }) {
               </div>
       
             </div>  
+        </div>
+        <div>
+        <Perfil></Perfil>
+        <Advice></Advice>
+        <ContactUs></ContactUs>
+        <Footer></Footer>
         </div>
     </div>
   
