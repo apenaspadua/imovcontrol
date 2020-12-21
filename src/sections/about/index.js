@@ -7,10 +7,6 @@ import image2 from "../../assets/imovcontrol-dashboard2.png"
 import image3 from "../../assets/imovcontrol-dashboard3.png"
 
 import "./styles.css"
-import Perfil from "../perfil/index.js"
-import Advice from "../advice";
-import ContactUs from "../contact-us";
-import Footer from "../footer";
 
 export default function About({ title, subtitle, id }) {
   return (
@@ -22,7 +18,7 @@ export default function About({ title, subtitle, id }) {
               <div className="content-title">
                 <text className="title">Tecnologia, Gestão e Agilidade</text>
                 <text className="subtitle">Organize suas vendas de imóveis pelas maiores instituições financeiras do país.</text>
-                <button className="button">Solicite um orçamento</button>
+                <button className="button">CADASTRE-SE PARA SABER MAIS</button>
               </div>
             </div>
 
@@ -73,14 +69,7 @@ export default function About({ title, subtitle, id }) {
                    
                 </InfiniteCarousel>
               </div>
-      
             </div>  
-        </div>
-        <div>
-        <Perfil></Perfil>
-        <Advice></Advice>
-        <ContactUs></ContactUs>
-        <Footer></Footer>
         </div>
     </div>
   

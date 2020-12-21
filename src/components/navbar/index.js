@@ -12,8 +12,18 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
-          <text className="nav-logo">IMOV<span className="nav-logo-span">CONTROL</span></text>
-          <ul className="nav-items">
+          <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+            <text className="nav-logo">IMOV<span className="nav-logo-span">CONTROL</span></text>
+          </Link>
+          
+          <ul className="nav-items">  
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -25,7 +35,7 @@ export default class Navbar extends Component {
               >
                 A IMOVECONTROL
               </Link>
-            </li>
+            </li>       
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -37,8 +47,8 @@ export default class Navbar extends Component {
               >
                 ESCOLHA SEU PERFIL
               </Link>
-            </li>
-            <li className="nav-item">
+            </li>         
+            <li className="nav-item-red">
               <Link
                 activeClass="active"
                 to="section3"
@@ -49,8 +59,8 @@ export default class Navbar extends Component {
               >
                 SOLICITE SEU FINACIAMENTO
               </Link>
-            </li>
-            <li className="nav-item">
+            </li>       
+            <li className="nav-item-yellow">
               <Link
                 activeClass="active"
                 to="section4"
@@ -61,7 +71,7 @@ export default class Navbar extends Component {
               >
                 ACOMPANHE AQUI
               </Link>
-            </li>
+            </li>      
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -73,7 +83,7 @@ export default class Navbar extends Component {
               >
                 FALE CONOSCO
               </Link>
-            </li>
+            </li>         
           </ul>
         </div>
       </nav>

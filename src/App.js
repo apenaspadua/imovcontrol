@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/navbar";
-import Section from "./sections/about";
+
+import SectionAbout from "./sections/about";
+import SectionProfile from "./sections/profile";
+import SectionAdvice from "./sections/advice"
+import SectionContactUs from "./sections/contact-us";
+import SectionFooter from "./sections/footer";
+
 import dummyText from "./DummyText";
 
 class App extends Component {
@@ -9,35 +15,35 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <Section
+        <SectionAbout
           title="Section 1"
           subtitle={dummyText}
           id="section1"
         />
-        {/* <Section
+       <SectionProfile
           title="Section 2"
           subtitle={dummyText}
           dark={false}
           id="section2"
         />
-        <Section
+        <SectionAdvice
           title="Section 3"
           subtitle={dummyText}
           dark={true}
           id="section3"
         />
-        <Section
+        <SectionContactUs
           title="Section 4"
           subtitle={dummyText}
           dark={false}
           id="section4"
         />
-        <Section
+        <SectionFooter
           title="Section 5"
           subtitle={dummyText}
           dark={true}
           id="section5"
-        /> */}
+        /> 
       </div>
     );
   }

@@ -1,0 +1,147 @@
+.container-profile {
+  background-color: #505c68;
+  text-align: center;
+  border: 0.5px solid #505c68;
+}
+
+.content-title-profile {
+  margin-top: 25px;
+}
+
+.title-profile {
+  font-size: 34px;
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.tab-manager {
+  display: flex;
+  padding: 24px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.tab {
+  padding: 12px;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 36px;
+  margin: 0 24px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 20px;
+  user-select: none;
+}
+
+.tab:hover {
+  background-color: rgba(0, 43, 73, 0.17);
+}
+
+.selected-tab-blue {
+  background-color: #01b1ec;
+  color: white;
+}
+
+.selected-tab-red {
+  background-color: #f86c6b;
+  color: white;
+}
+
+.selected-tab-yellow {
+  background-color: #ffcd3a;
+  color: white;
+}
+
+.tab-content {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-content-all{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 100px 50px 100px;
+  background-color: #26292E;
+  border-radius: 10px;
+}
+
+.contant-vantages{
+  display: flex;
+  flex-direction: row;
+}
+
+.container-info-breaker {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  align-items: center;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 15px;
+}
+
+.title-info {
+  font-size: 18px;
+  color: #EEEEEE;
+  font-weight: bold;
+
+}
+
+.text-info {
+  font-size: 18px;
+  color: #EEEEEE;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.vantages-title{
+  color: #01b1ec;  
+  font-size: 22px;  
+}
+
+.fieldset {
+  margin-top: 20px;
+  border: 2px solid #01b1ec;
+  width: 5%;
+  border-radius: 5px;
+}
+
+.container-vantages-title {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.content-button{
+  margin-bottom: 40px;
+}
+
+.button {
+  padding: 20px;
+  border-radius: 5px;
+  border: 0;
+  background:  #fec107;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+
+  width: 20%;
+}
+
+.button:hover{
+  opacity: 0.7;
+}

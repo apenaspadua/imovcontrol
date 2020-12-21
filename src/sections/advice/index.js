@@ -2,8 +2,6 @@ import React from "react";
 import "./styles.css";
 import logoImobanc from  "../../assets/logo-imobanc.png";
 
-
-
 export default class Advice extends React.Component {
     render() {
         return (
