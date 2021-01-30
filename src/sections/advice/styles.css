@@ -4,17 +4,19 @@
   }
   
 .advices {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin:auto;
+  text-align: -webkit-center;
 }
 
 .content-advice {
   border: 1px solid #505C68;
   border-radius: 10px;
-  width: 42%;
+  width: 83%;
   margin: 5px;
   padding: 20px;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .content-advice h2 {
@@ -29,7 +31,7 @@
 
 .img-logo {
   text-align: center;
-  margin-top: -18%;
+  margin-top: -10%;
 }
 
 .img-logo img {

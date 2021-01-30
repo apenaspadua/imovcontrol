@@ -23,7 +23,7 @@ export default function About({ title, subtitle, id }) {
             </div>
 
             
-            <div className="content-about">
+            {/* <div className="content-about">
               
               <div className="content-about-text">
                 <text className="title-about">A ImovControl</text>
@@ -69,7 +69,7 @@ export default function About({ title, subtitle, id }) {
                    
                 </InfiniteCarousel>
               </div>
-            </div>  
+            </div>   */}
         </div>
     </div>
   

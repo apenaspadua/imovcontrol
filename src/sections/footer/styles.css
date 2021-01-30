@@ -18,6 +18,19 @@
     justify-content: space-between;
 }
 
+.options-footer-contact {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.options-footer-contact label {
+    color: #EEEEEE;
+}
+
+
 .options-footer label {
     color: #EEEEEE;
 }

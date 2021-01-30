@@ -8,14 +8,15 @@
 }
 
 .inputName {
-    width: 50%;
+    width: 66%;
     height: 40px;
 }
 
 .inputDown {
     margin-top: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 1% 10% 1% 10%;
 }
 
 .inputContact {

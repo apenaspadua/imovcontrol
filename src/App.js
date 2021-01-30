@@ -7,6 +7,7 @@ import SectionProfile from "./sections/profile";
 import SectionAdvice from "./sections/advice"
 import SectionContactUs from "./sections/contact-us";
 import SectionFooter from "./sections/footer";
+import SectionCarrosel from "./sections/carrosel";
 
 import dummyText from "./DummyText";
 
@@ -16,6 +17,11 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <SectionAbout
+          title="Section 1"
+          subtitle={dummyText}
+          id="section1"
+        />
+        <SectionCarrosel
           title="Section 1"
           subtitle={dummyText}
           id="section1"

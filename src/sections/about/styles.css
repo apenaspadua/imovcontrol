@@ -12,11 +12,10 @@
 
 .section-opacity {
   background: transparent linear-gradient(89deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
+  height: 100vh;
 }
 
 .section-content {
-  /* height: 1000px; */
-
   margin: 0 auto;
   padding: 40px;
 }
@@ -61,7 +60,7 @@
 .content-about {
   background: transparent linear-gradient(89deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
   width: 100%;
-  margin-top: 5%;
+  /* margin-top: 5%; */
   position: relative;
   bottom: 0;
   left: 0;
@@ -78,10 +77,7 @@
   flex-direction: column;
 }
 
-.content-about-carousel {
-  margin: 100px 40px 100px 40px;
-  width: 50%;
-}
+
 
 .title-about {
   margin-top: 10%;

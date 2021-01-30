@@ -33,7 +33,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                A IMOVECONTROL
+                A IMOVCONTROL
               </Link>
             </li>       
             <li className="nav-item">
@@ -57,7 +57,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                SOLICITE SEU FINACIAMENTO
+                SOLICITE SEU FINANCIAMENTO
               </Link>
             </li>       
             <li className="nav-item-yellow">
