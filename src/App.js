@@ -19,36 +19,38 @@ class App extends Component {
         <SectionAbout
           title="Section 1"
           subtitle={dummyText}
+          dark={true}
           id="section1"
         />
         <SectionCarrosel
-          title="Section 1"
-          subtitle={dummyText}
-          id="section1"
-        />
-       <SectionProfile
           title="Section 2"
           subtitle={dummyText}
-          dark={false}
-          id="section2"
+          dark={true}
+          id="carrosel"
+        />
+       <SectionProfile
+          title="Section 3"
+          subtitle={dummyText}
+          dark={true}
+          id="profile"
         />
         <SectionAdvice
           title="Section 3"
           subtitle={dummyText}
           dark={true}
-          id="section3"
+          id="advice"
         />
         <SectionContactUs
           title="Section 4"
           subtitle={dummyText}
-          dark={false}
-          id="section4"
+          dark={true}
+          id="contactUs"
         />
         <SectionFooter
           title="Section 5"
           subtitle={dummyText}
           dark={true}
-          id="section5"
+          id="footer"
         /> 
       </div>
     );

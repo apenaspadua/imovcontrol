@@ -2,11 +2,10 @@ import React from "react";
 import "./styles.css";
 import logoImobanc from "../../assets/logo-imobanc.png";
 
-export default class Advice extends React.Component {
-    render() {
+export default function  Advice({id}) {
         return (
             <div className={"section-advice"}>
-                <div className={"section-opacity-perfil"}>
+                <div className={"section-opacity-perfil"} id={id}>
 
                     <div className="section-content">
                         <div className="advices">
@@ -39,5 +38,4 @@ export default class Advice extends React.Component {
                 </div>
             </div>
         )
-    }
 }

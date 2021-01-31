@@ -7,11 +7,10 @@ import image1 from "../../assets/imovcontrol-dashboard1.png"
 import image2 from "../../assets/imovcontrol-dashboard2.png"
 import image3 from "../../assets/imovcontrol-dashboard3.png"
 
-export default class Carrosel extends React.Component {
-    render() {
+export default function Carrosel({id}) {
         return (
 
-            <div className={"section-carrosel"}>
+            <div className={"section-carrosel"} id={id}>
                 <div className={"section-opacity"}>
 
                     <div className="content-about-carrosel">
@@ -63,5 +62,4 @@ export default class Carrosel extends React.Component {
                 </div>
             </div>
         )
-    }
 }

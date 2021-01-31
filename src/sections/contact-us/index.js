@@ -5,11 +5,10 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
 
-export default class ContactUs extends React.Component {
-    render() {
+export default function ContactUs({id}) {
         return (
             <div className={"section-contact-us"}>
-                <div className={"section-opacity-perfil"}>
+                <div className={"section-opacity-perfil"} id={id}>
 
                     <div className="section-content">
                         <div className="content-contact-us">
@@ -34,5 +33,4 @@ export default class ContactUs extends React.Component {
                 </div>
             </div>
         )
-    }
 }

@@ -110,13 +110,13 @@ const TabCompany = () => (
 )
 
 
-export default function Profile() {
+export default function Profile({id}) {
   const [activeTab, handleTab] = useState(0)
   const [color, setColor] = useState('blue')
 
   return (
     <div className="container-profile">
-      <div className="content-title-profile">
+      <div className="content-title-profile" id={id}>
         <text className="title-profile">Qual o seu perfil?</text>
       </div>
       
