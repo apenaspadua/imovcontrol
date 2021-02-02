@@ -6,6 +6,9 @@ import image1 from "../../assets/imovcontrol-dashboard1.png"
 import image2 from "../../assets/imovcontrol-dashboard2.png"
 import image3 from "../../assets/imovcontrol-dashboard3.png"
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
+
 import "./styles.css"
 
 export default function About({ title, subtitle, id }) {
@@ -18,7 +21,17 @@ export default function About({ title, subtitle, id }) {
               <div className="content-title">
                 <text className="title">Tecnologia, Gestão e Agilidade</text>
                 <text className="subtitle">Organize suas vendas de imóveis pelas maiores instituições financeiras do país.</text>
+
+                <Link
+                activeClass="active"
+                to="contactUs"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 <button className="button">CADASTRE-SE PARA SABER MAIS</button>
+              </Link>
               </div>
             </div>
 
