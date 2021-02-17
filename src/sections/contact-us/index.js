@@ -11,14 +11,14 @@ export default function ContactUs({ id }) {
 
     const botoesConfirmacao = () => {
         if(isEmailSentError) {
-            console.log('aaaa');
+           
             return (
                 <div className="feedback-negative">
                     <label>Ocorreu um erro, por favor tente mais tarde!</label>
                 </div>
             );
         } else if (isEmailSentSuccess) {
-            console.log('bbb');
+            
             return (
                 <div className="feedback-positive">
                     <label>Email enviado com sucesso!</label>
@@ -40,7 +40,7 @@ export default function ContactUs({ id }) {
                 console.log(error.text);
             });
 
-        e.target.reset()
+        // e.target.reset()
     }
 
     return (
@@ -64,7 +64,7 @@ export default function ContactUs({ id }) {
                                     <InputMask mask="(99)99999-9999" name="phone" className="inputContact" placeholder="TELEFONE" />
                                 </div>
                             </div>
-                            <input className="button-form" type="submit" value="Enviar"/>
+                            <input className="button-form" disabled={isEmailSentSuccess} type="submit" value="Enviar"/>
                         </form>
                     </div>
                     {botoesConfirmacao()}
